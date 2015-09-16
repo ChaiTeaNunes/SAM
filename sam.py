@@ -62,18 +62,20 @@ task: Opens the task manager.")
     elif response.lower() == "programs":
         os.system("appwiz.cpl")
         os.system("taskkill /f /im cmd.exe")
+    # Browser/Web command
     elif response.lower()[:7] == "browser" or response.lower()[:3] == "web":
-        if response.lower() == "browser":
+        if response.lower() == "browser" or response.lower() == "web":
             response = input("What site?")
             webbrowser.open_new_tab("https://" + response)
         else:
-            webbrowser.open_new_tab("https://" + response[4:]
+            webbrowser.open_new_tab("https://" + response[4:])
+    # Google command
     elif response.lower()[:6] == "google":
         if response.lower() == "google":
             response = input("What should I search?")
             webbrowser.open_new_tab("https://www.google.com/search?q=" + response)
         else:
-            webbrowser.open_new_tab("https://www.google.com/search?q=" + response[7:]
+            webbrowser.open_new_tab("https://www.google.com/search?q=" + response[7:])
     print("\n<" + name + '>')
 
 while 1:
