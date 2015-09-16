@@ -1,13 +1,13 @@
 import os, webbrowser
 
-info = "SPAM is currently version 0.2 and is written by Chaiyawat Nunes\n\
+info = "SAM is currently version 0.2 and is written by Chaiyawat Nunes\n\
     (chaiteanunes@gmail.com, chaiteanunes.github.io).\n\
-SPAM stands for Simple Personal Assistant Machine.\n\
-SPAM is a machine, therefor has no gender or sexual preference.\n\
-SPAM is not even a neural network."
+SAM stands for Simple Assistant Machine.\n\
+SAM is a machine, therefore has no gender or sexual preference.\n\
+SAM is not even a neural network."
 response = ""
 
-name = input("Hello. I am SPAM - Simple Personal Assistant Machine. What is your name?\n")
+name = input("Hello. I am SAM - Simple Assistant Machine. What is your name?\n")
 print("Hello " + name + ", type \"help\" for a list of commands.")
 print("\n<" + name + '>')
 
@@ -16,9 +16,9 @@ def run():
     # Help Command
     if response.lower() == "help":
         print("\
-about/spam: Displays information about SPAM.\n\
+about/sam: Displays information about SAM.\n\
 browser/web: Opens web browser to given URL.\n\
-close/exit: Clears SPAM's console.\n\
+close/exit: Clears SAM's console.\n\
 google: Using the Google Search Engine to look up the specific phrase.\n\
 help: Display the list of commands.\n\
 open: Opens a directory.\n\
@@ -26,8 +26,8 @@ programs: Opens programs and features.\n\
 remove: Removes a directory or file.\n\
 say: SPAM says the specified phrase.\n\
 task: Opens the task manager.")
-    # About/Spam command
-    if response.lower() == "spam" or response.lower() == "about":
+    # About/Sam command
+    if response.lower() == "sam" or response.lower() == "about":
         print(info)
     # Say Command
     elif response.lower()[:3] == "say":
