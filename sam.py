@@ -18,7 +18,7 @@ def run():
         print("\
 about/sam: Displays information about SAM.\n\
 browser/web: Opens web browser to given URL.\n\
-close/exit: Clears SAM's console.\n\
+close/exit: Exits SAM's console.\n\
 google: Using the Google Search Engine to look up the specific phrase.\n\
 help: Display the list of commands.\n\
 open: Opens a directory.\n\
