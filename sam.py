@@ -19,8 +19,8 @@ def run():
 about/sam: Displays information about SAM.\n\
 browser/web: Opens web browser to given URL.\n\
 close/exit: Exits SAM's console.\n\
-google: Using the Google Search Engine to look up the specific phrase.\n\
-help: Display the list of commands.\n\
+google: Uses the Google Search Engine to look up the specific phrase.\n\
+help: Displays the list of commands.\n\
 open: Opens a directory.\n\
 programs: Opens programs and features.\n\
 remove: Removes a directory or file.\n\
