@@ -24,7 +24,7 @@ help: Display the list of commands.\n\
 open: Opens a directory.\n\
 programs: Opens programs and features.\n\
 remove: Removes a directory or file.\n\
-say: SPAM says the specified phrase.\n\
+say: SAM says the specified phrase.\n\
 task: Opens the task manager.")
     # About/Sam command
     if response.lower() == "sam" or response.lower() == "about":
