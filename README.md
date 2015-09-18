@@ -1,4 +1,4 @@
 # SAM
 Simple Assistant Machine - Like, really simple.
 
-Written in python, only compatible with Windows operating systems.
+Written in Python 3, only compatible with Windows XP and up.
