@@ -59,14 +59,12 @@ task: Opens the task manager.")
     # Task Command
     elif response.lower()[:4] == "task":
         os.system("taskmgr")
-        os.system("taskkill /f /im cmd.exe")
     # Close/Exit command
     elif response.lower() == "close" or response.lower() == "exit":
         exit()
     # Programs command
     elif response.lower() == "programs":
         os.system("control appwiz.cpl")
-        os.system("taskkill /f /im cmd.exe")
     # Browser/Website
     elif response.lower()[:7] == "browser" or response.lower()[:7] == "website":
         if response.lower() == "browser" or response.lower() == "website":
